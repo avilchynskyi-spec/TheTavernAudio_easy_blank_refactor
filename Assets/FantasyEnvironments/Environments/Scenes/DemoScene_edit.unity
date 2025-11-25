@@ -2348,6 +2348,7 @@ GameObject:
   - component: {fileID: 613997993}
   - component: {fileID: 613997990}
   - component: {fileID: 613997989}
+  - component: {fileID: 613997994}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2519,6 +2520,41 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &613997994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5662db7a78ed10944a62b27bb1056215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepsEvent:
+    Guid:
+      Data1: -1568782409
+      Data2: 1113099003
+      Data3: 113803192
+      Data4: -1173119318
+    Path: event:/Footstep/foot steps Change
+  jumpEvent:
+    Guid:
+      Data1: -1892775845
+      Data2: 1174094061
+      Data3: -1336707960
+      Data4: -486329515
+    Path: event:/Jump/Foot_stone_jump
+  landEvent:
+    Guid:
+      Data1: -2095377321
+      Data2: 1296494985
+      Data3: 914254527
+      Data4: -1177073050
+    Path: event:/Jump/Jump stone
+  isGrounded: 1
+  isJumping: 0
 --- !u!1 &688602384
 GameObject:
   m_ObjectHideFlags: 0

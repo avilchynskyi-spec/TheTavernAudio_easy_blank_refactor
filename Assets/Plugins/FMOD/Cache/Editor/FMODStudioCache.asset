@@ -24,7 +24,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels:
   - Stone
-  - wood
+  - Wood
   Exists: 1
 --- !u!114 &-7216789272271558373
 MonoBehaviour:
@@ -159,7 +159,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels:
   - Stone
-  - wood
+  - Wood
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -194,7 +194,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 5746423720694305310}
   cacheVersion: 131856
-  cacheTime: 638990889281321819
+  cacheTime: 638996964670886068
   SerializableEventsDict:
   - key: event:/Ambiant/Tavern
     index: 0
@@ -342,7 +342,7 @@ MonoBehaviour:
   Path: Assets/Fmod/2/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638990889281321819
+  lastModified: 638996964670886068
   FileSizes:
   - Name: Desktop
     Value: 1542
@@ -416,10 +416,10 @@ MonoBehaviour:
   Path: Assets/Fmod/2/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638990889281296663
+  lastModified: 638996964670866059
   FileSizes:
   - Name: Desktop
-    Value: 6919424
+    Value: 6916352
   Exists: 1
 --- !u!114 &7813519644207973764
 MonoBehaviour:
