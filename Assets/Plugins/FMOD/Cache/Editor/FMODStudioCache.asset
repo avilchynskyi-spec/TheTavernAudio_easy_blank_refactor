@@ -224,7 +224,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 5746423720694305310}
   cacheVersion: 131856
-  cacheTime: 639015099760910848
+  cacheTime: 639035771840991028
   SerializableEventsDict:
   - key: event:/Ambiant/Tavern
     index: 0
@@ -432,10 +432,10 @@ MonoBehaviour:
   Path: Assets/Fmod/2/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639015099760910848
+  lastModified: 639035771840991028
   FileSizes:
   - Name: Desktop
-    Value: 1744
+    Value: 1994
   Exists: 1
 --- !u!114 &6113251459102273335
 MonoBehaviour:
@@ -506,10 +506,10 @@ MonoBehaviour:
   Path: Assets/Fmod/2/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639015099760890846
+  lastModified: 639035771840978826
   FileSizes:
   - Name: Desktop
-    Value: 6919680
+    Value: 6920384
   Exists: 1
 --- !u!114 &7813519644207973764
 MonoBehaviour:
