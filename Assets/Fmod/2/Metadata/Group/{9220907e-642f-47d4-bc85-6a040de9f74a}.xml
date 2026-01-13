@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Tavern</value>
 		</property>
+		<relationship name="masters">
+			<destination>{50d5b48c-d8f7-484c-9ab8-8649361a497d}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{e171d236-8b6c-4754-94c8-0776168c47c6}</destination>
 		</relationship>
