@@ -218,13 +218,15 @@ MonoBehaviour:
   - {fileID: 1546852794744052954}
   - {fileID: 4419267534486318330}
   - {fileID: 8752834278344184033}
+  - {fileID: 390925785244257705}
+  - {fileID: 6497823454139763246}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6474710498855520626}
   StringsBanks:
   - {fileID: 5746423720694305310}
   cacheVersion: 131856
-  cacheTime: 639035771840991028
+  cacheTime: 639045285428321936
   SerializableEventsDict:
   - key: event:/Ambiant/Tavern
     index: 0
@@ -254,6 +256,37 @@ MonoBehaviour:
     index: 12
   - key: snapshot:/Inside room
     index: 13
+  - key: event:/Fire/Fire_ON
+    index: 14
+  - key: event:/Fire/Fire_Off
+    index: 15
+--- !u!114 &390925785244257705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fire/Fire_ON
+  m_EditorClassIdentifier: 
+  Path: event:/Fire/Fire_ON
+  Guid:
+    Data1: 666060326
+    Data2: 1279322119
+    Data3: -1973052787
+    Data4: 2028278585
+  Banks:
+  - {fileID: 6474710498855520626}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &1512764436121717867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -432,10 +465,10 @@ MonoBehaviour:
   Path: Assets/Fmod/2/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639035771840991028
+  lastModified: 639045285428321936
   FileSizes:
   - Name: Desktop
-    Value: 1994
+    Value: 2084
   Exists: 1
 --- !u!114 &6113251459102273335
 MonoBehaviour:
@@ -506,11 +539,38 @@ MonoBehaviour:
   Path: Assets/Fmod/2/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639035771840978826
+  lastModified: 639045285428312379
   FileSizes:
   - Name: Desktop
-    Value: 6920384
+    Value: 7075520
   Exists: 1
+--- !u!114 &6497823454139763246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fire/Fire_Off
+  m_EditorClassIdentifier: 
+  Path: event:/Fire/Fire_Off
+  Guid:
+    Data1: -566067040
+    Data2: 1191336612
+    Data3: -1574067266
+    Data4: 1727321626
+  Banks:
+  - {fileID: 6474710498855520626}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7813519644207973764
 MonoBehaviour:
   m_ObjectHideFlags: 0

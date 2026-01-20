@@ -1170,16 +1170,16 @@ MonoBehaviour:
       Data4: 1059918075
     Path: event:/Fire/Fire
   Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 2
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   NonRigidbodyVelocity: 0
   Params: []
-  OverrideAttenuation: 1
-  OverrideMinDistance: 2.85
-  OverrideMaxDistance: 3.0864787
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &297431489
 GameObject:
   m_ObjectHideFlags: 0
@@ -4713,6 +4713,66 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1637403078754586, guid: 12f375000a68b4649bb3d3d8189e199e, type: 3}
   m_PrefabInstance: {fileID: 1952063277}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1502880854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1502880856}
+  - component: {fileID: 1502880855}
+  m_Layer: 0
+  m_Name: Fireplace_Interact
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1502880855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502880854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a9cb3529df6ed44ebe16dfeedb35e82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ognisko: {fileID: 226206310}
+  fireplaceStart:
+    Guid:
+      Data1: 666060326
+      Data2: 1279322119
+      Data3: -1973052787
+      Data4: 2028278585
+    Path: event:/Fire/Fire_ON
+  fireplaceStop:
+    Guid:
+      Data1: -566067040
+      Data2: 1191336612
+      Data3: -1574067266
+      Data4: 1727321626
+    Path: event:/Fire/Fire_Off
+  isActive: 1
+--- !u!4 &1502880856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502880854}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 388.928, y: 6.786, z: 320.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1528400724
 GameObject:
   m_ObjectHideFlags: 0
@@ -6473,8 +6533,8 @@ MonoBehaviour:
       Data4: 1059918075
     Path: event:/Fire/Fire
   Event: 
-  EventPlayTrigger: 1
-  EventStopTrigger: 0
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -7531,3 +7591,4 @@ SceneRoots:
   - {fileID: 1213396919}
   - {fileID: 326992050}
   - {fileID: 791482653}
+  - {fileID: 1502880856}
