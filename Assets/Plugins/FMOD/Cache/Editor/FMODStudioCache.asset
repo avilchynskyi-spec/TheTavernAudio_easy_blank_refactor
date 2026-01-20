@@ -188,6 +188,60 @@ MonoBehaviour:
   - Stone
   - Wood
   Exists: 1
+--- !u!114 &-1966356544167455438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiant/Knife
+  m_EditorClassIdentifier: 
+  Path: event:/Ambiant/Knife
+  Guid:
+    Data1: -477837101
+    Data2: 1137631777
+    Data3: -29186686
+    Data4: 1971588147
+  Banks:
+  - {fileID: 6474710498855520626}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-860363975077026457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiant/Barrel
+  m_EditorClassIdentifier: 
+  Path: event:/Ambiant/Barrel
+  Guid:
+    Data1: 1963759149
+    Data2: 1123588154
+    Data3: 2009786030
+    Data4: 536795010
+  Banks:
+  - {fileID: 6474710498855520626}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,13 +274,16 @@ MonoBehaviour:
   - {fileID: 8752834278344184033}
   - {fileID: 390925785244257705}
   - {fileID: 6497823454139763246}
+  - {fileID: -860363975077026457}
+  - {fileID: -1966356544167455438}
+  - {fileID: 162918876920690715}
   EditorParameters: []
   MasterBanks:
   - {fileID: 6474710498855520626}
   StringsBanks:
   - {fileID: 5746423720694305310}
   cacheVersion: 131856
-  cacheTime: 639045296561787238
+  cacheTime: 639045354047170375
   SerializableEventsDict:
   - key: event:/Ambiant/Tavern
     index: 0
@@ -260,6 +317,39 @@ MonoBehaviour:
     index: 14
   - key: event:/Fire/Fire_Off
     index: 15
+  - key: event:/Ambiant/Barrel
+    index: 16
+  - key: event:/Ambiant/Knife
+    index: 17
+  - key: event:/Ambiant/Glas
+    index: 18
+--- !u!114 &162918876920690715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiant/Glas
+  m_EditorClassIdentifier: 
+  Path: event:/Ambiant/Glas
+  Guid:
+    Data1: 2025096635
+    Data2: 1074694932
+    Data3: -804985931
+    Data4: -1394460460
+  Banks:
+  - {fileID: 6474710498855520626}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &390925785244257705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,10 +555,10 @@ MonoBehaviour:
   Path: Assets/Fmod/2/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639045296561787238
+  lastModified: 639045354047170375
   FileSizes:
   - Name: Desktop
-    Value: 2084
+    Value: 2192
   Exists: 1
 --- !u!114 &6113251459102273335
 MonoBehaviour:
@@ -539,10 +629,10 @@ MonoBehaviour:
   Path: Assets/Fmod/2/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639045296561767176
+  lastModified: 639045354047150371
   FileSizes:
   - Name: Desktop
-    Value: 7075520
+    Value: 7242400
   Exists: 1
 --- !u!114 &6497823454139763246
 MonoBehaviour:
