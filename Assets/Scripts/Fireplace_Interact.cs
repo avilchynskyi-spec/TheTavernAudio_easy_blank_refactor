@@ -3,7 +3,7 @@ using FMODUnity;
 
 public class Fireplace_Interact : MonoBehaviour, IInteractable 
 {
-    [Header(("Ognisko"))]
+    [Header("Ognisko")]
     [SerializeField] GameObject ognisko;
     [Header("Dzwieki")]
     [SerializeField] private EventReference fireplaceStart;
