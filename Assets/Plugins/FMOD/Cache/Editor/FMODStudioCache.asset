@@ -283,7 +283,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 5746423720694305310}
   cacheVersion: 131856
-  cacheTime: 639045354047170375
+  cacheTime: 639057386312488276
   SerializableEventsDict:
   - key: event:/Ambiant/Tavern
     index: 0
@@ -344,7 +344,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 6474710498855520626}
   IsStream: 0
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -555,10 +555,10 @@ MonoBehaviour:
   Path: Assets/Fmod/2/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639045354047170375
+  lastModified: 639057386312488276
   FileSizes:
   - Name: Desktop
-    Value: 2192
+    Value: 2228
   Exists: 1
 --- !u!114 &6113251459102273335
 MonoBehaviour:
@@ -583,10 +583,37 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 6167344354444811970}
   MinDistance: 1
   MaxDistance: 20
-  Length: 540
+  Length: 800
+--- !u!114 &6167344354444811970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Door Open 1/Door
+  m_EditorClassIdentifier: 
+  Name: Door
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1481900260
+    data2: 4053631776
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Open
+  - Close
+  Exists: 1
 --- !u!114 &6228750529037354260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -629,10 +656,10 @@ MonoBehaviour:
   Path: Assets/Fmod/2/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639045354047150371
+  lastModified: 639057386312468293
   FileSizes:
   - Name: Desktop
-    Value: 7242400
+    Value: 7243776
   Exists: 1
 --- !u!114 &6497823454139763246
 MonoBehaviour:
